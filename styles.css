@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, #000000, #555555); /* черный → серый */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+p {
+  color: red;
+}
+ch {
+  color: #bdbdbd;
+  margin-left: 200px;
+  font-size: 50px;
+  align-items: center;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  text-align:right;
+  src: url('fonts/segoe-ui-black.ttf') format('truetype');
+}
+
+now {
+  font-weight: bold;
+  font-size: 100px;
+  margin-top: -500PX;
+  position: relative;
+  left: 130px;
+  top: -100px;
+  background: linear-gradient(to bottom, #8f8f8f, #111111); /* чёрно-серый градиент */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a {
+    background: linear-gradient(to bottom, #00b7ff, #083a5c); /* чёрно-серый градиент */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  left: -700px;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  text-align:right;
+  src: url('fonts/segoe-ui-black.ttf') format('truetype');
+}
