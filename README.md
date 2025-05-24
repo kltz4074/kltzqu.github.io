@@ -1,1 +1,1 @@
-i'ts portfolio website by kltzqu
+website with sotial media and projects (like portfolio)😶
